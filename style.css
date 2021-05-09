@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color:  rgb(255, 255, 255);
+    background: rgb(16, 125, 145);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    /* background: rgb(16, 125, 145); */
+    position: relative;
+}
+.header__img {
+    text-align: center;
+}
+.header__text-title{
+    text-align: center;
+
+}
+.header__text-title h1{
+    font-size: 37px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+   
+}
+.header__text-title p{
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+   
+}
+ .paragraph__title{
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+ .flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ .paragraph__content p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+.paragraph__content h3{
+    font-size: 17px;
+    font-weight: bold;
+}
+ .paragraph__line{
+    width: 648px;
+    border-top: 1px solid white;
+    margin: 80px auto;
+}
+.paragraph__img {
+   text-align: center;
+   margin-top: 67px;
+   margin-bottom: 67px;
+}
+.register-step{
+    margin-left: 80px;
+}
+#text-title{
+    font-size: 33px;
+    line-height: 1.6;
+    font-weight: bold;
+    text-align: center;
+}
+#text-content{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1.6;
+    line-height: 1.6;
+}
+#paragraph__content{
+    padding: 0 100px;
+}
+#text01{
+    font-size: 17px;
+    line-height: 1.6;
+}
+.box-reason h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+    text-align: center;
+}
+.item{
+    background-color: #FFFF;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.item h3{
+    font-size: 16px;
+    color: rgb(16, 72, 145);
+    font-weight: bold;
+}
+.item .item-line{
+    width: 241px;
+    border-top: 1px solid black;
+    padding: 11px 0;
+    margin: 0 auto;
+}
+.box-1{
+   text-align: center;
+}
+.box-1__title{
+    font-size: 30px; 
+    
+}
+.box-1 p{
+    line-height: 1.6;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3px;
+    text-align: center;
+}
+.box-register{
+    margin-top: 120px ; 
+    text-align: center;
+    background: linear-gradient(180deg, #09203f, #537895);
+    padding-bottom: 100px;
+}
+.box-register h3{
+    padding: 30px 0;
+    font-size: 30px;
+}
+.box-register p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.register-form{
+    width: 425.21px;
+    height: 256px;
+    margin: 0 auto;
+}
+.register-form .input{
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    line-height:1.6 ;
+}
+.button{
+    width: 102%;
+    height: 35px;
+    margin-top: 10px;
+}
+.select{
+    width: 102%;
+    height: 41px;
+    margin-top: 10px ;
+}
+.button{
+    background: rgb(232, 59, 48);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 32px;
+}
+.admin{
+    background-color: rgb(228, 228, 228);
+    color: black;
+    
+}
+.admin_icon{
+    text-align: center;
+}
+.admin_title{
+    font-weight: bold;
+    text-align: center;
+}
+.admin .flex{
+    gap: 200px;
+}
+.flex img{
+    border: 1px solid gray;
+    border-radius: 100%;
+    width: 220.685px;
+    height:  220.685px;
+}
+.admin-user{
+    box-shadow: 0px 0px 5px 0px rgb(8 8 8 / 15%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 40px;
+}
+.note{
+    width: 818px;
+    height: 76.8px;
+    margin: 0 auto;
+    color: red;
+    font-weight: bold;
+}
+.icon__admin{
+    text-align: center;
+}
+@media only screen and (max-width: 640px) {
+    
+    .container{
+        width: 100%;
+    }
+    .header__img img{
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+    }
+    .header__text-title{
+        text-align: center;
+    }
+    .header__text-title h1{
+        font-size: 25px;
+    }
+    .header__text-title p{
+        font-size: 19px;
+    }
+    .section__paragraph-first{
+        margin: 0 auto;
+    }
+    .section__paragraph-first p{
+        font-size: 16px;
+    }
+    .flex{
+        display: block;
+    }
+    .paragraph__content{
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+    .paragraph__line{
+        width: 80%;
+        margin: 60px auto;
+    }
+    .paragraph__images {
+        text-align: center;
+    }
+    .paragraph__images iframe{
+        width: 80%;
+        height: 100%;
+    }
+    .paragraph__title{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .paragraph__content p{
+        margin-right: 10px;
+    }
+    #text-title{
+        font-size: 20px;
+    }
+    .paragraph__content h3,p{
+        margin: 0 auto;
+    }
+    .paragraph__img img{
+        width: 80%;
+        object-fit: contain;
+        height: 100%;
+    }
+    .paragraph__img h4{
+        font-size: 16px;
+    }
+    #text01{
+        margin: auto 10px;
+    }
+    .title h3,h4,p {
+        margin: 10px 10px;
+    }
+    .register-step{
+        margin: auto 10px;
+        font-size: 17px;
+    }
+    #paragraph__content{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .paragraph__img iframe{
+        width: 80%;
+        object-fit: contain;
+        height: 100%;
+    }
+    .box-reason h3{
+        font-size: 20px;
+    }
+    .grid{
+        display: block;
+    }
+    .item{
+        margin: 10px 48px;
+        padding: 10px;
+    }
+    .box-1__title{
+        font-size: 24px;
+    }
+    .box-register{
+        
+       /* padding: 0 10px; */
+    }
+    .box-register h3{
+        font-size: 22px;
+    }
+    .box-register p{
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    .register-form{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .register-form .input{
+        width: 80%;
+        height: 35px;
+        margin-top: 10px;
+    }
+    .select{
+        width: 82%;
+        height: 41px;
+        margin-top: 10px;
+    }
+    .button{
+        width: 82%;
+        height: 41px;
+        margin-top: 10px;
+    }
+    /* .input{
+        width: 80%;
+        margin: 0 auto;
+    } */
+    .icon__admin{
+        text-align: center;
+    }
+    .admin-user{
+        text-align: center;
+    }
+    .grid-1{
+        display: block;
+    }
+    .grid-1 img{
+        width: 100%;
+    }
+    .note{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
